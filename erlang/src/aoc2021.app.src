@@ -1,0 +1,12 @@
+{application, 'aoc2021',
+ [{description, "Advent of code"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {mod, {'aoc2021_app', []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []}
+ ]}.
